@@ -53,6 +53,8 @@ public class ConverterActivity extends Activity {
 			ed3.setText(d3);	
 		} catch (InvalidParameterException e) {
 			Toast.makeText(ConverterActivity.this, "U CANNOT DO THIS", Toast.LENGTH_SHORT).show();
+			ed1.setText("");
+			ed2.setText("");
 			ed3.setText("");
 		}
     }
